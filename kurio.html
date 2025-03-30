@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology & Meeting Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heart-trail"></div>
+    
+    <div class="container" id="page1">
+        <h1>Maafin Mas Sayang Da Bikin Kesel</h1>
+        <button id="forgiveBtn">Iya Dimaafin</button>
+        <button id="moodBtn">Gamau, Masi Betmut</button>
+    </div>
+
+    <div class="container" id="page2" style="display:none;">
+        <h1>Jadwalkan Pertemuan</h1>
+        <input type="date" id="datePicker">
+        <input type="time" id="timePicker">
+        <select id="atmosphereSelect">
+            <option value="flowers">Bunga</option>
+            <option value="cafe">Kafe</option>
+            <option value="park">Taman</option>
+        </select>
+        <button id="continueBtn">Lanjut</button>
+    </div>
+
+    <div class="container" id="page3" style="display:none;">
+        <h1>Jadwal Pertemuan Anda</h1>
+        <div id="summary"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
